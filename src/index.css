@@ -1,0 +1,107 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    background-color: lightsalmon;
+    padding: 20px 0px;
+    position: sticky;
+    top: 0;
+    
+}
+
+.titel{
+    color: white;
+}
+
+.card{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 15vw;
+    gap: 6px;
+    text-align: center;
+    margin: 6px;
+    padding: 3px;
+}
+
+
+
+.all_product_box{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+   
+
+}
+.pImage{
+    width: 200px;
+}
+
+.addtocartBtn{
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+}
+.addtocartBtn:hover{
+   background-color: lightsalmon;
+}
+
+.cartCard{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 15px;
+    padding: 15px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.cartpImage{
+    width: 160px;
+}
+
+.Remove_btn{
+    width: 150px;
+    border-radius: 8px;
+    border: none;
+    padding: 3px;
+    cursor: pointer;
+}
+.Remove_btn:hover{
+    background-color: lightsalmon;
+}
+
+.hero_img{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    text-align: center;
+    
+}
+
+.navlinks{
+    text-decoration: none;
+    color: black;
+    
+}
+.empty_cart{
+    text-align: center;
+    font-size: 30px;
+
+}
