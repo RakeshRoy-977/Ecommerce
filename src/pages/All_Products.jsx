@@ -27,15 +27,19 @@ const All_Products = () => {
   } 
 
   return (
+
     <div className="all_product_box">
-     {data.map(x=>(
+      {isloading ? <span>Products Loading</span> : 
+      data.map(x=>(
       <div key={x.id} className="card">
         <img className='pImage' src={x.image} alt="product images" />
         <span>{x.title}</span>
         <span className='pPrice'>${x.price}</span>
         <button onClick={()=>handelAddtocartBtn(x)} className='addtocartBtn'>Add to Cart</button>
       </div>
-     ))}
+     )) }
+     
+     {}
 
     <ToastContainer />
     </div>
